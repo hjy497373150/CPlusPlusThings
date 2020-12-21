@@ -47,7 +47,7 @@ class SaleWorker:public Employee{
                 <<"\t\t 总工资: "<<getSalary()<<endl;
         }
     private:
-        float baseMoney=800.0;
+        const float baseMoney = 800.0;
         float workerMoney;
 };
 class HourWorker:public Employee{
@@ -63,7 +63,7 @@ class HourWorker:public Employee{
                 <<"\t\t 总工资: "<<getSalary()<<endl;
         }
     private:
-        float hourMoney=100.0;
+        const float hourMoney=100.0;
         float TotalMoney;
 };
 
@@ -87,6 +87,6 @@ int main(){
     cin>>hour;
     HourWorker h("小何","333333",hour);
     h.print();
-    system("pause");
+    //system("pause");
     return 0;
 }

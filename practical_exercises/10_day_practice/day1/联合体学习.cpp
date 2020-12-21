@@ -12,7 +12,7 @@ int main()
     a.u.y =5; 
     a.u.z =6; 
     a.k = 0; //覆盖掉第一个int空间值
-    printf("%d %d %d %d\n",a.u.x,a.u.y,a.u.z,a.k);
+    printf("%d %d %d %d\n",a.u.x,a.u.y,a.u.z,a.k);//输出0 5 6 0
     system("pause");
     return 0;
 }
