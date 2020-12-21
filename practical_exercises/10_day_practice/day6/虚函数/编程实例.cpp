@@ -87,6 +87,6 @@ int main(){
     cin>>hour;
     HourWorker h("Ð¡ºÎ","333333",hour);
     h.print();
-    system("pause");
+    //system("pause");
     return 0;
 }
